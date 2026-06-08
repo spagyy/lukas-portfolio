@@ -7,7 +7,7 @@
     font-family: "Poppins";
 }
 :root {
-    --bg-color: #201B1B;
+    --bg-color: #232323;
     --second-bg-color: #1b1a1a;
     --text-color: #bddbda;
     --main-color: #CEFF00
@@ -15,4 +15,21 @@
 html {
     font-size: 60%;
     overflow-x: hidden;
+}
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 4rem 15%;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
 }
