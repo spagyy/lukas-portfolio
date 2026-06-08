@@ -12,3 +12,7 @@
     --text-color: #bddbda;
     --main-color: #CEFF00
 }
+html {
+    font-size: 60%;
+    overflow-x: hidden;
+}
