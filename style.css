@@ -7,9 +7,9 @@
     font-family: "Poppins";
 }
 :root {
-    --bg-color: #232323;
+    --bg-color: #282c20;
     --second-bg-color: #1b1a1a;
-    --text-color: #bddbda;
+    --text-color: #fcfcfa;
     --main-color: #CEFF00
 }
 html {
@@ -51,9 +51,17 @@ body {
 span{
     background: linear-gradient(
     270deg,
-    #DF8908 10%,
-    #ff1d15
+    #BAD1CEFF 10%,
+    #CEFF00
     );
     background-clip: text;
     color: transparent;
+}
+.navbar a {
+    font-size: 1.8rem;
+    color: var(--main-color);
+    margin-left: 4rem;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+    border-bottom: 3px solid transparent;
 }
