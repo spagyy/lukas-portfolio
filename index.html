@@ -60,7 +60,7 @@
 
         <div class="about-content">
             <h2>About<span>Me</span></h2>
-            <p>About me idk</p>
+            <p>About me, I don't know</p>
             <a href="#" class="btn">Read More</a>
         </div>
     </section>
@@ -69,23 +69,23 @@
         <h2 class="heading">Services</h2>
 
         <div class="services-container">
-            <div class="services-box">
+            <div class="services-card">
                 <div class="services-info">
                     <i class="bx bxl-adobe"></i>
-                    <h4>Adobe</h4>
+                    <h4>Adobe Graphic</h4>
                     <p>Do you need help designing a graphic or flyer, or just some feedback? I’m a graphic design pro—don’t wait, contact me today!</p>
                 </div>
             </div>
 
-            <div class="services-box">
+            <div class="services-card">
                 <div class="services-info">
-                    <i class="bx bxl-instagram"></i>
+                    <i class="bx bxl-instagram"></i> <!-- dk proč se mi to zarovnava vedle textu, musim to jeste fixnout, jsem zapoměl měnit z bocu na card a z infa jsem to dal na card -->
                     <h4>Instagram Manager</h4>
                     <p>Is your Instagram account not getting enough reach, or are you unsure how to create content? I’ll show you, step by step, how to reach your goal of one million followers.</p>
                 </div>
             </div>
 
-            <div class="services-box">
+            <div class="services-card">
                 <div class="services-info">
                     <i class="bx bx-code"></i>
                     <h4>Website Dev</h4>
@@ -94,5 +94,86 @@
             </div>
         </div>
     </section>
+
+    <section class="projects" id="projects">
+
+        <h2 class="heading">Projects</h2>
+
+        <div class="projects-box">
+
+            <div class="projects-card">
+                <img src="img/project1.png" alt="">
+
+                <h3>Car Race</h3>
+                <p>Old pixel game when you have to, </p>
+                <a href="https://github.com/spagyy/car_race" class="btn" target="_blank">Review Project</a>
+            </div>
+
+            <div class="projects-card">
+                <img src="img/project3.png" alt="">
+
+                <h3>My gym</h3>
+                <p>Loging and easy managing fitness</p>
+                <a href="https://my-gym-delta.vercel.app/" class="btn" target="_blank">Review Project</a>
+            </div>
+
+            <div class="projects-card">
+                <img src="img/project2.png" alt="">
+
+                <h3>PAS Zlín</h3>
+                <p>Website for cars lovers</p>
+                <a href="https://pas-zlin.vercel.app/" class="btn" target="_blank">Review Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+         <h2 class="heading">Let's <span>join forces</span></h2>
+
+        <form action="#">
+
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full name" required>
+                    <input type="email" placeholder="Email" required>
+                </div>
+
+                <div class="input-box">
+                    <input type="number" placeholder="Phone number" required>
+                    <input type="text" placeholder="Subject" required>
+                </div>
+
+                <div class="input-group-2">
+                    <textarea name="" id="" placeholder="Do you want say something?"></textarea>
+                    <input type="submit" value="Finished!">
+                </div>
+            </div>
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="https://github.com/spagyy" target="_blank">
+                <i class="bx bxl-github"></i>
+            </a>
+
+            <a href="https://www.instagram.com/real_spagy/" target="_blank">
+                <i class="bx bxl-instagram-alt"></i>
+            </a>
+
+            <a href="https://www.threads.com/@real_spagy" target="_blank">
+                <i class="bx bxl-twitter"></i>
+            </a>
+        </div>
+        <ul class="list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <p class="copyright">
+            © Lukáš Sedláček 2026 | All Rights Reserved
+        </p>
+    </footer>
 </body>
 </html>
