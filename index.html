@@ -8,11 +8,15 @@
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
 </head>
 <body>
+
+        <!--HEADER, LOGO-->
     <header class="header">
         <a href="#home" class="logo">Lukáš <span>Sedláček</span></a>
 
+        <!--MENU IKONA-->
         <i class="bx bx-menu" id="menu-icon"></i>
 
+        <!--NAVBAR-->
         <nav class="navbar">
             <a href="#home">Home</a>
             <a href="#about">About</a>
@@ -20,14 +24,21 @@
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
         </nav>
-        <button class="gradient-btn">Contact Me</button>
+
+        <!--MAILTO BUTTON-->
+        <a href="mailto:fancyspagy@gmail.com?subject=Service&body=Hi%2C%20Luk%C3%A1%C5%A1.%20My%20name%20is%20%5Byour%20name%5D.%20I%20would%20like%20to%20use%20your%20service%2C%20specifically%20%5Bthe%20service%20you%E2%80%99re%20requesting%5D.%20%0A%0ABest%20regards%2C%0A%5BYour%20first%20and%20last%20name%5D" class="btn">Contact Me</a>
     </header>
 
+        <!--HOME SECTION-->
     <section class="home" id="home">
         <div class="home-content">
+
+            <!--PŘEDSTAVENÍ-->
             <h1>Hey, I'm <span>Lukáš</span></h1>
             <h3>I'm a <span>Web Developer</span></h3>
-            <p>I’m a student at <b>Orbis High School</b>, majoring in <b>IT</b>. I enjoy creating graphics and websites. In my free time, I listen to and remix songs, and I like to organize various events.</p>
+            <p>THYNK DIFFERENT | Every crazy project idea leads to an excellent result</p>
+
+            <!--SOCIALS ICON-->
             <div class="social-icons">
                 <a href="https://github.com/spagyy" target="_blank">
                     <i class="bx bxl-github"></i>
@@ -42,41 +53,50 @@
                 </a>
             </div>
 
+            <!--ASK ME BUTTON-->
             <div class="btn-group">
-                <a href="#" class="btn">Hire</a>
-                <a href="#contact" class="btn">Contact</a>
+                <a href="#contact" class="btn">Ask me!</a>
             </div>
         </div>
+
+        <!--PRVNÍ FOTKA-->
         <div class="home-img">
             <img src="img/me-main.jpg" alt="">
         </div>
     </section>
 
+        <!--SECTION ABOUT ME-->
     <section class="about" id="about">
 
+        <!--DRUHÁ FOTKA-->
         <div class="about-img">
-            <img src="img/me-main.jpg" alt="">
+            <img src="img/zff_only_me.jpg" alt="">
         </div>
 
+        <!--ABOUT MEM PŘEDSTAVENÍ-->
         <div class="about-content">
             <h2>About<span>Me</span></h2>
-            <p>About me, I don't know</p>
-            <a href="#" class="btn">Read More</a>
+            <p>I’m a student at <b>Orbis High School</b>, majoring in <b>IT</b>. I enjoy creating graphics and websites.
+                In my free time, I listen to and remix songs, and I like to organize various events.</p>
+            <a href="https://github.com/spagyy" class="btn">Read More</a>
         </div>
     </section>
 
+        <!--SECTION SERVICES-->
     <section class="services" id="services">
         <h2 class="heading">Services</h2>
 
+        <!--PRVNÍ CARD ADOBE-->
         <div class="services-container">
             <div class="services-card">
                 <div class="services-info">
                     <i class="bx bxl-adobe"></i>
-                    <h4>Adobe Graphic</h4>
+                    <h4>Adobe Designer</h4>
                     <p>Do you need help designing a graphic or flyer, or just some feedback? I’m a graphic design pro—don’t wait, contact me today!</p>
                 </div>
             </div>
 
+            <!--DRUHÁ CARD IG-->
             <div class="services-card">
                 <div class="services-info">
                     <i class="bx bxl-instagram"></i> <!-- dk proč se mi to zarovnava vedle textu, musim to jeste fixnout, jsem zapoměl měnit z bocu na card a z infa jsem to dal na card -->
@@ -85,66 +105,79 @@
                 </div>
             </div>
 
+            <!--TŘETÍ CARD WEB-->
             <div class="services-card">
                 <div class="services-info">
                     <i class="bx bx-code"></i>
-                    <h4>Website Dev</h4>
+                    <h4>Website Developer</h4>
                     <p>Do you need a brand-new website or want to revamp your outdated one? I’m here to help bring your ideas and features to life—I want your website to meet your standards and incorporate the systems you need. I’d be happy to help you build your new project.</p>
                 </div>
             </div>
         </div>
     </section>
 
+        <!--SECTION PROJEKTY-->
     <section class="projects" id="projects">
 
         <h2 class="heading">Projects</h2>
 
         <div class="projects-box">
 
+            <!--PRVNÍ CARD PROJEKT-->
             <div class="projects-card">
                 <img src="img/project1.png" alt="">
 
                 <h3>Car Race</h3>
-                <p>Old pixel game when you have to, </p>
+                <p>An old arcade game where you have to avoid other cars, in progress</p>
                 <a href="https://github.com/spagyy/car_race" class="btn" target="_blank">Review Project</a>
             </div>
 
+            <!--DRUHÁ CARD PROJEKT-->
             <div class="projects-card">
                 <img src="img/project3.png" alt="">
 
                 <h3>My gym</h3>
-                <p>Loging and easy managing fitness</p>
+                <p>An easy-to-use and comprehensive system for managing a fitness center.</p>
                 <a href="https://my-gym-delta.vercel.app/" class="btn" target="_blank">Review Project</a>
             </div>
 
+            <!--TŘETÍ CARD PROJEKT-->
             <div class="projects-card">
                 <img src="img/project2.png" alt="">
 
                 <h3>PAS Zlín</h3>
-                <p>Website for cars lovers</p>
+                <p>A website for car events.They organize it all over the Czech Republic.</p>
                 <a href="https://pas-zlin.vercel.app/" class="btn" target="_blank">Review Project</a>
             </div>
         </div>
     </section>
 
+        <!--SEKCE KONTAKT-->
     <section class="contact" id="contact">
          <h2 class="heading">Let's <span>join forces</span></h2>
 
-        <form action="#">
+        <form action="">
 
             <div class="input-group">
                 <div class="input-box">
-                    <input type="text" placeholder="Full name" required>
-                    <input type="email" placeholder="Email" required>
+                    <label for="fullname">Full name</label>
+                    <input type="text" id="fullname" placeholder="Full name" required>
+
+                    <label for="email">Email address</label>
+                    <input type="email" id="email" placeholder="Email"  required>
                 </div>
 
                 <div class="input-box">
-                    <input type="number" placeholder="Phone number" required>
-                    <input type="text" placeholder="Subject" required>
+                    <label for="phonenumber">Phone number</label>
+                    <input type="number" id="phonenumber" placeholder="Phone number" required>
+
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" placeholder="Subject" required>
                 </div>
 
                 <div class="input-group-2">
-                    <textarea name="" id="" placeholder="Do you want say something?" cols="30" rows="10"></textarea>
+                    <label for="message">Message</label>
+                    <textarea name="" id="message" placeholder="Do you want say something?" cols="30" rows="10"></textarea>
                     <input type="submit" class="btn" value="Finished!">
                 </div>
             </div>
@@ -175,5 +208,6 @@
             © Lukáš Sedláček 2026 | All Rights Reserved
         </p>
     </footer>
+<script src="script.js"></script>
 </body>
 </html>
